@@ -4,7 +4,7 @@ project(Image_Fusion)
 set(CMAKE_CXX_STANDARD 14)
 
 #OpenCV
-find_package(OpenCV REQUIRED)
+find_package(OpenCV 4.5 REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
 # include
